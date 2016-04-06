@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+<head>
+    <title>{{ SITEURL }}</title>
+</head>
+
+{% block content %}
+        <h1 class="title"><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
+
+        {% if SITESUBTITLE %} <div class="info">{{ SITESUBTITLE }}</div> {% endif %}
+
+        {% for article in articles_page.object_list %}
+
+            <div class="article-list">
+
+                <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+
+                <p class="info">{{ article.locale_date }}</p>
+
+            </div>
+
+        {% endfor %}
+{% endblock %}

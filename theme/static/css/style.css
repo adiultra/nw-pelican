@@ -1,0 +1,174 @@
+/* This style sheet is used for noteworthy, created by @adiultra */
+html {
+  color: #464646;
+  font-line-height: 1.5;
+  font-size: 134%;
+  font-family: "Merriweather";
+  font-weight: lighter; }
+  @media screen and (max-width: 719px) {
+    html {
+      font-size: 110%; } }
+  @media screen and (min-width: 1200px) {
+    html {
+      font-size: 130%; } }
+  html body {
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    background-color: #f0f0f0; }
+    @media screen and (max-width: 719px) {
+      html body {
+        padding-top: 4%;
+        padding-right: 2%;
+        padding-bottom: 1%;
+        padding-left: 2%; } }
+    @media screen and (min-width: 1200px) {
+      html body {
+        padding-top: 5%;
+        padding-right: 14%;
+        padding-bottom: 1%;
+        padding-left: 14%; } }
+    html body div.page {
+      padding-top: 5%;
+      padding-right: 12%;
+      padding-bottom: 5%;
+      padding-left: 12%;
+      border-top: 16px solid #00d198;
+      border-bottom: 16px solid #00d198;
+      background-color: #fafafa;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); }
+      @media screen and (max-width: 719px) {
+        html body div.page {
+          padding-top: 2%;
+          padding-right: 4%;
+          padding-bottom: 2%;
+          padding-left: 4%;
+          border-width: 8px; } }
+      html body div.page .info {
+        margin-bottom: 5%;
+        text-align: right;
+        font-size: 100%;
+        font-style: italic; }
+      html body div.page p {
+        line-height: 1.5; }
+      html body div.page a {
+        text-decoration: underline;
+        color: #00b885; }
+        html body div.page a:hover {
+          color: #00d198; }
+      html body div.page h1 {
+        padding: 1%;
+        color: #238c6f;
+        font-size: 1.6em;
+        font-weight: lighter; }
+        html body div.page h1 a {
+          text-decoration: none; }
+      html body div.page h2 {
+        padding: 1%;
+        color: #238c6f;
+        font-size: 1.4em;
+        font-weight: lighter; }
+      html body div.page h3 {
+        padding: 1%;
+        color: #238c6f;
+        font-size: 1.3em;
+        font-weight: lighter; }
+      html body div.page h4 {
+        padding: 1%;
+        color: #238c6f;
+        font-size: 1.2em;
+        font-weight: lighter; }
+      html body div.page h1.title {
+        text-align: center;
+        color: #00d198;
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        font-size: 2.4em; }
+      html body div.page img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 5% auto;
+        text-align: center;
+        border: solid 10px transparent;
+        border-radius: 5px; }
+        html body div.page img:hover {
+          border: solid 10px #fafafa;
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); }
+      html body div.page pre {
+        padding: 1%;
+        text-overflow: ellipsis;
+        color: #606060;
+        border-left: 8px solid #00d198;
+        background-color: #f2f2f2; }
+      html body div.page blockquote {
+        margin: 0% 4%;
+        padding: 2%;
+        padding-left: 3%;
+        border-left: 8px solid #00d198;
+        background-color: #f2f2f2;
+        font-style: italic; }
+        html body div.page blockquote:hover {
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); }
+        html body div.page blockquote p {
+          padding: 0;
+          margin: 0; }
+      html body div.page hr {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        border: none;
+        border-top: dashed 8px #00d198; }
+      html body div.page div.article-list {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding: 2%;
+        transition: all 0.2s; }
+        html body div.page div.article-list:hover {
+          border-radius: 5px;
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25); }
+        html body div.page div.article-list h2 {
+          margin: 0%;
+          font-size: 1.5em; }
+          html body div.page div.article-list h2 a {
+            text-decoration: none; }
+        html body div.page div.article-list .info {
+          margin: 0%;
+          margin-left: 2%;
+          text-align: left; }
+      html body div.page div.back-home {
+        margin: 2%;
+        margin-top: 8%;
+        text-align: center; }
+        html body div.page div.back-home a {
+          padding: 2%;
+          text-decoration: none;
+          color: white;
+          border-radius: 5px;
+          background-color: #00d198; }
+          html body div.page div.back-home a:hover {
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25); }
+          html body div.page div.back-home a:active {
+            box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.4); }
+      html body div.page div.summary {
+        padding: 1%;
+        background-color: #f2f2f2;
+        font-size: 75%; }
+    html body div.footer {
+      padding: 2%;
+      padding-top: 3%;
+      transition: all 0.4s;
+      text-align: center;
+      font-size: 80%; }
+      html body div.footer:hover {
+        color: #fafafa;
+        background-color: rgba(70, 70, 70, 0.7);
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2); }
+        html body div.footer:hover a {
+          color: #38ffc9; }
+      html body div.footer a {
+        text-decoration: underline;
+        color: #00b885; }
+        html body div.footer a:hover {
+          color: #00d198; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css" type="text/css" />
+
+    	<link rel="stylesheet" href="{{ SITEURL }}/theme/katex/katex.min.css">
+    	<script src="{{ SITEURL }}/theme/katex/katex.min.js"></script>
+    	<script src="{{ SITEURL }}/theme/katex/contrib/auto-render.min.js"></script>
+      <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300' rel='stylesheet' type='text/css'>
+
+    </head>
+
+    <body>
+    <div class="page">
+        {% block content %} {% endblock %}
+    </div>
+
+    <div class="footer">
+        Design by <a class="wobsite" href="http://adiultra.cf">AdiUltra</a>, <a rel="license" href="https://opensource.org/licenses/MIT">licensed</a>.
+        <br />
+        Powered by <a href="http://alexis.notomyidea.org/pelican/">pelican</a>
+    </div>
+
+    <script>renderMathInElement(
+              document.body,
+              {
+                  delimiters: [
+                      {left: "$$", right: "$$", display: true},
+                      {left: "\\[", right: "\\]", display: true},
+                      {left: "$", right: "$", display: false},
+                      {left: "\\(", right: "\\)", display: false}
+                  ]
+              }
+          );
+    </script>
+
+    </body>
+
+</html>
