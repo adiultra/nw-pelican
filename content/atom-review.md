@@ -3,7 +3,7 @@ Date: 2016-03-07
 
 ### _The Text Editor for the 21st century_
 
-![cool](https://atom.io/assets/screenshot-main-38c8ffcd253985c4bba97ad2b08e9fd5.png)
+![cool](http://i.imgur.com/ZiPFwuk.png)
 
 ## Text editors _vs_ IDEs
 
